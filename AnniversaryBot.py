@@ -4,14 +4,14 @@ from slackclient import SlackClient
 from TEKServiceAnniversary import TEKServiceAnniversary
 
 BOT_NAME = 'anniversarybot'
-SLACK_BOT_TOKEN = 'xoxb-88193568502-M1qqQYkCSnx6p0omz0Js2aON'
+SLACK_BOT_TOKEN = 'YOUR_TOKEN'
 slack_client = SlackClient(SLACK_BOT_TOKEN)
-BOT_ID = 'U2L5PGQES'
+BOT_ID = 'YOUR_BOT_USER_ID'
 
 # constants
 AT_BOT = "<@" + BOT_ID + ">:"
 EXAMPLE_COMMAND = "do"
-CH_ID = 'C1Y7S3YD6'
+CH_ID = 'YOUR_CHANNEL_ID'
 #User Id Dictionary
 User_ref=dict()
 
